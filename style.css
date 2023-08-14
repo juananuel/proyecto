@@ -23,6 +23,7 @@ body{
     background: rgb(191,171,180);
     background: radial-gradient(circle, rgba(191,171,180,1) 0%, rgba(86,150,227,1) 100%);
     position: sticky;
+    top: 0;
 }
 
 h1{
@@ -36,6 +37,7 @@ h2{
 }
 p{
     font-size: 1.3em;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 #main p{
