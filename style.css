@@ -44,4 +44,30 @@ p{
     color: white;
 }
 
+/* .btn-musica{
+    display: inline-block;
+} */
 
+.btn-musica a{
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* offset-x | offset-y | blur-radius | spread-radius | color */
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+}
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* offset-x | offset-y | blur-radius | spread-radius | color */
+    color: white;
+    background-color: blueviolet;
+}
