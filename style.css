@@ -147,12 +147,37 @@ p{
     color: white;
 }
 
-footer{
+#foot{
     color: rgb(204, 197, 197);
-    padding: 30px;
+    padding: 20px;
     background-color: rgba(0,0,0,0.5);
-    text-align: right;
+    text-align: left;
     font-size: 1.2em;
+    display: flex;
+}
+
+
+.rrss, .copyright{
+    width: 50%;
+}
+
+.email, .instagram, .twitter{
+    display: flex;
+    padding: 20px;
+}
+
+.email p, .instagram p, .twitter p{
+    padding-left: 20px;
+}
+
+.twitter img{
+    border-radius: 7px;
+} 
+
+
+.copyright p{
+    text-align: right;
+    padding: 100px;
 }
 
 
