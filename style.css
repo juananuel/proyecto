@@ -19,12 +19,13 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-align: justify;
 }
 
 #head{
     /* background: rgb(92, 74, 250); */
     /* filter: blur(5px); */
-    background: radial-gradient(circle, rgb(133, 72, 214) 0%, rgb(40, 115, 207) 100%);
+    background: radial-gradient(circle, rgb(153, 82, 245) 0%, rgb(40, 115, 207) 100%);
     opacity: 80%;
     position: sticky;
     top: 0;
@@ -85,6 +86,10 @@ p{
     font-family: 'Signika Negative', sans-serif;
 }
 
+#main h2{
+    padding-bottom: 30px;
+}
+
 #main p{
     color: white;
 }
@@ -115,14 +120,14 @@ p{
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* offset-x | offset-y | blur-radius | spread-radius | color */
     /* background-color: blueviolet; */
-    background-color: radial-gradient(circle, rgb(133, 72, 214) 0%, rgb(40, 115, 207) 100%);
+    background-color: radial-gradient(circle, rgb(129, 68, 209) 0%, rgb(40, 115, 207) 100%);
     transition: 0.5s;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
 }
 
 .btn-musica a:hover, .btn-video a:hover{
-    background-color: rgba(161, 94, 224, 0.493);
+    background-color: rgba(155, 48, 255, 0.493);
 }
 
 .testimony{
@@ -147,4 +152,12 @@ footer{
     padding: 30px;
     background-color: rgba(0,0,0,0.5);
     text-align: right;
+    font-size: 1.2em;
+}
+
+
+/* services */
+
+.main_about, .main_services{
+    padding: 400px;
 }
