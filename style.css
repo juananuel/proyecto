@@ -156,18 +156,22 @@ p{
     display: flex;
 }
 
+#foot h4{
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
 
 .rrss, .copyright{
     width: 50%;
 }
 
 .email, .instagram, .twitter{
-    display: flex;
-    padding: 20px;
-}
-
-.email p, .instagram p, .twitter p{
-    padding-left: 20px;
+    display: inline-block; 
+    padding-top: 50px;
+    padding-left: 70px;
 }
 
 .twitter img{
@@ -180,6 +184,12 @@ p{
     padding: 100px;
 }
 
+
+/* About */
+
+.main_about p{
+    color: white;
+}
 
 /* services */
 
