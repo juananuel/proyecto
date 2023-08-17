@@ -150,10 +150,13 @@ p{
 
 .testimony_one, .testimony_two{
     padding: 80px;
-    margin: 10px;
-    background-color: rgba(128, 128, 128, 0.466);
+    margin: 7px;
+    background-color: rgba(67, 66, 68, 0.466);
     border-radius: 20px;
     width: 50%;
+    border: 1px solid rgb(0,0,0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    transition: 2s;
 }
 
 .testimony p{
@@ -216,6 +219,7 @@ p{
 
 .main_about h2{
     padding-bottom: 100px;
+    transition: 2s;
 }
 
 .main_about-div p{
@@ -225,6 +229,7 @@ p{
 }
 
 .main_about-div img{
+    width: 30%;
     border-radius: 50%;
 }
 
