@@ -108,7 +108,7 @@ p{
 }
 
 .first_section{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.2);
     padding: 100px;
 }
 
@@ -209,6 +209,25 @@ p{
     color: white;
 }
 
+.main_about-div{
+    display: flex;
+    align-items: center;
+}
+
+.main_about h2{
+    padding-bottom: 100px;
+}
+
+.main_about-div p{
+    text-align: center;
+    text-align: justify;
+    padding: 50px;
+}
+
+.main_about-div img{
+    border-radius: 50%;
+}
+
 /* services */
 
 .main_services p{
@@ -216,7 +235,31 @@ p{
 }
 
 .service_one, .service_two, .service_three{
-    padding: 200px;
+    padding: 150px;
+}
+
+.service_one h2, .service_two h2, .service_three h2{
+    padding-bottom: 100px;
+}
+
+.service_one-div, .service_two-div, .service_three-div{
+    display: flex;
+    align-items: center;
+}
+
+.service_one-div p, .service_two-div p, .service_three-div p{
+    text-align: center;
+    text-align: justify;
+    padding: 50px;
+}
+
+.service_one-div img, .service_two-div img, .service_three-div img{
+    border-radius: 10px;
+}
+
+.service_three-div img{
+    max-width: 800px;
+    max-height: 600px;
 }
 
 .service_two{
