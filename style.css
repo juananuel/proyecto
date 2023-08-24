@@ -212,7 +212,7 @@ p{
     color: white;
 }
 
-.main_about-div{
+.sec_one-div{
     display: flex;
     align-items: center;
 }
@@ -222,13 +222,13 @@ p{
     transition: 2s;
 }
 
-.main_about-div p{
+.sec_one-div p{
     text-align: center;
     text-align: justify;
     padding: 50px;
 }
 
-.main_about-div img{
+.sec_one-div img{
     width: 30%;
     border-radius: 50%;
 }
