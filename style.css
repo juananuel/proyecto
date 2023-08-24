@@ -270,3 +270,11 @@ p{
 .service_two{
     background-color: rgba(0,0,0,0.3);
 }
+
+/* Interés */
+
+.main_interes{
+    background-color: rgba(0,0,0,0.3);
+    padding: 200px;
+    color: white;
+}
