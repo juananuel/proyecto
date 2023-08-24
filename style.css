@@ -205,31 +205,35 @@ p{
 
 .main_about{
     background-color: rgba(0,0,0,0.3);
-    padding: 200px;
+    padding: 100px;
 }
 
 .main_about p{
     color: white;
 }
 
-.sec_one-div{
+.sec_one-div, .sec_two-div{
     display: flex;
     align-items: center;
 }
 
+.second_section-about{
+    padding-top: 200px;
+}
+
 .main_about h2{
-    padding-bottom: 100px;
+    /* padding-top: 100px; */
     transition: 2s;
 }
 
-.sec_one-div p{
+.sec_one-div p, .sec_two-div p{
     text-align: center;
     text-align: justify;
-    padding: 50px;
+    padding: 100px;
 }
 
-.sec_one-div img{
-    width: 30%;
+.sec_one-div img, .sec_two-div img{
+    width: 32%;
     border-radius: 50%;
 }
 
@@ -240,7 +244,7 @@ p{
 }
 
 .service_one, .service_two, .service_three{
-    padding: 150px;
+    padding: 100px;
 }
 
 .service_one h2, .service_two h2, .service_three h2{
@@ -255,16 +259,12 @@ p{
 .service_one-div p, .service_two-div p, .service_three-div p{
     text-align: center;
     text-align: justify;
-    padding: 50px;
+    padding: 100px;
 }
 
 .service_one-div img, .service_two-div img, .service_three-div img{
     border-radius: 10px;
-}
-
-.service_three-div img{
-    max-width: 800px;
-    max-height: 600px;
+    max-width: 600px;
 }
 
 .service_two{
@@ -275,6 +275,6 @@ p{
 
 .main_interes{
     background-color: rgba(0,0,0,0.3);
-    padding: 200px;
+    padding: 100px;
     color: white;
 }
