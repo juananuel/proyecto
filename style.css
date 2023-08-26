@@ -18,7 +18,7 @@ body{
     text-align: justify;
 }
 
-body::before{
+/* body::before{
     background-image: url(./img/bg1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body::before{
     filter: blur(10px);
     z-index: -1;
     content: '';
-}
+} */
 
 #head{
     background: radial-gradient(circle, rgb(153, 82, 245) 0%, rgb(40, 115, 207) 100%);
@@ -67,7 +67,6 @@ h1{
 }
 
 h1:hover{
-    /* -webkit-filter: blur(2px); */
     transition: 0.2s;
     filter: blur(3px);
 }
@@ -97,6 +96,7 @@ p{
 
 #main p{
     color: white;
+    padding: 100px;
 }
 
 .first_section{
@@ -177,8 +177,13 @@ p{
     padding: 80px;
 }
 
+.instagram, .email{
+    padding: 10px;
+}
+
 .twitter img{
-    border-radius: 7px;
+    border-radius: 16px;
+    padding: 10px;
 } 
 
 
@@ -255,7 +260,7 @@ p{
 
 .service_one-div img, .service_two-div img, .service_three-div img{
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 50%;
 }
 
 .service_one{
@@ -296,6 +301,7 @@ p{
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 30px 20px 10px rgba(0, 0, 0, 0.7);
+    max-width: 90%;
 }
 
 .section_one-interest p{
