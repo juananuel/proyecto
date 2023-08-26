@@ -16,13 +16,6 @@ body{
     background-attachment: fixed;
     background-size: cover;
     text-align: justify;
-    /* transition: 2s; */
-        /* background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.3),
-        rgba(0,0,0,0.3)
-    ) ,url(img/bg1.jpg); */
-    /* filter: blur(2px); */
 }
 
 body::before{
@@ -37,8 +30,6 @@ body::before{
 }
 
 #head{
-    /* background: rgb(92, 74, 250); */
-    /* filter: blur(5px); */
     background: radial-gradient(circle, rgb(153, 82, 245) 0%, rgb(40, 115, 207) 100%);
     opacity: 80%;
     position: sticky;
@@ -54,7 +45,6 @@ body::before{
 }
 
 .navigation a{
-    /* background-color: rgb(88, 61, 207); */
     border-radius: 20px;
     color: white;
     text-decoration: none;
@@ -77,9 +67,9 @@ h1{
 }
 
 h1:hover{
-    /* backdrop-filter: blur(5px); */
-    -webkit-filter: blur(2px);
+    /* -webkit-filter: blur(2px); */
     transition: 0.2s;
+    filter: blur(3px);
 }
 
 h2{
@@ -102,6 +92,7 @@ p{
 
 #main h2{
     padding-bottom: 30px;
+    transition: 2s;
 }
 
 #main p{
@@ -133,8 +124,6 @@ p{
     border-radius: 25px;
     border: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* offset-x | offset-y | blur-radius | spread-radius | color */
-    /* background-color: blueviolet; */
-    /* background-color: radial-gradient(circle, rgb(129, 68, 209) 0%, rgb(40, 115, 207) 100%); */
     transition: 0.5s;
     text-decoration: none;
     font-family: 'Signika Negative', sans-serif;
@@ -145,7 +134,6 @@ p{
 }
 
 .testimony{
-    /* background-color: rgba(128, 128, 128, 0.466); */
     display: flex;
 }
 
@@ -221,11 +209,10 @@ p{
 }
 
 .second_section-about{
-    padding-top: 100px;
+    padding: 100px;
 }
 
 .main_about h2{
-    /* padding-top: 100px; */
     transition: 2s;
 }
 
