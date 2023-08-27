@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calm</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <header id="head">
+
+        <h1>Calm</h1>
+        <nav class="navigation">
+            <a href="./index.html">INICIO</a>
+            <a href="./about.html">SOBRE NOSOTROS</a>
+            <a href="./services.html">SERVICIOS</a>
+            <a href="./interest.html">INTERÉS</a>
+            <a href="./contact.html">CONTACTOS</a>
+        </nav>
+
+    </header>
+
+    <main class="contact-main">
+
+        <section class="contact_form">			
+            <h2>Formulario de contacto</h2>
+    
+            <form action="" method="post">				
+                <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+                
+                <div>
+                    <label for="nombre" class="colocar_nombre">Nombre<span class="obligatorio"> *</span></label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </div>
+            
+                <div>
+                    <label for="email" class="colocar_email">Email<span class="obligatorio"> *</span></label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </div>
+        
+                <div>
+                    <label for="telefone" class="colocar_telefono">Teléfono</label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </div>			
+            
+                <div>
+                    <label for="asunto" class="colocar_asunto">Asunto<span class="obligatorio"> *</span></label>
+                    <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+                </div>		
+            
+                <div>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje<span class="obligatorio"> *</span></label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </div>	  								
+            
+                <button type="submit" name="enviar_formulario" id="enviar"><p>ENVIAR</p></button>
+
+                <div class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </div>
+                
+            </form>         
+
+        </section>
+
+    </main>
+
+    <footer id="foot">
+
+        <div class="rrss">
+            <div class="foot-h4">
+                <h4>Redes Sociales</h4>
+            </div>
+            <div class="rrss-div">
+                <div class="email">
+                
+                    <a href="mailto:contacto@calm.com" target="_blank">
+                        <img src="./img/email.png" alt="email_logo">
+                    </a>
+    
+                </div>
+    
+                <div class="instagram">
+    
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="./img/ig_logo.png" alt="instagram_logo">
+                    </a>
+    
+                </div>
+    
+                <div class="twitter">
+    
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="./img/twitter.png" alt="twitter_logo">
+                    </a>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; Calm Ltd. 2023</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
