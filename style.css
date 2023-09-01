@@ -188,9 +188,9 @@ p{
 
 /* About */
 
-.main_about p{
+/* .main_about p{
     color: white;
-}
+} */
 
 .first_section-about{
     background-color: rgba(0, 0, 0, 0.5);
@@ -213,8 +213,7 @@ p{
 }
 
 .sec_one-div p, .sec_two-div p{
-    text-align: center;
-    text-align: justify;
+    /* text-align: justify; */
     padding: 100px;
 }
 
@@ -225,9 +224,9 @@ p{
 
 /* services */
 
-.main_services p{
+/* .main_services p{
     color: white;
-}
+} */
 
 .service_one, .service_two, .service_three{
     padding: 100px;
@@ -268,13 +267,13 @@ p{
 
 /* Interés */
 
-.main_interest{
+/* .main_interest{
     color: white;
-}
+} */
 
-.main_interest h2{
+/* .main_interest h2{
     transition: 2s;
-}
+} */
 
 .section_one-interest{
     background-color: rgba(0, 0, 0, 0.5);
