@@ -234,7 +234,7 @@ p{
 
 .service_one h2, .service_two h2, .service_three h2{
     padding-bottom: 100px;
-    transition: 2s;
+    /* transition: 2s; */
 }
 
 .service_one-div, .service_two-div, .service_three-div{
@@ -243,7 +243,6 @@ p{
 }
 
 .service_one-div p, .service_two-div p, .service_three-div p{
-    text-align: center;
     text-align: justify;
     padding: 100px;
 }
