@@ -578,6 +578,10 @@ form textarea:focus{
     .section_one-interest{
         padding: 100px 0px;
     }
+
+    .secone_interest-img{
+        padding-top: 30px;
+    }
     
     .secone_interest-img img{
         width: 400px;
@@ -597,6 +601,10 @@ form textarea:focus{
     
     .section_two-interest p{
         padding: 100px 200px 50px 200px;
+    }
+
+    .sectwo_interest-img{
+        padding-top: 30px;
     }
     
     .sectwo_interest-img img{
