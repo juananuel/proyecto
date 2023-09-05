@@ -36,9 +36,9 @@ body{
 }
 
 .navigation a{
+    font-size: 0.9em;
     border-radius: 11px;
     color: white;
-    text-decoration: none;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding: 2.5px;
@@ -423,7 +423,7 @@ form textarea:focus{
 /*  @media  */
 
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
     #head{
         display: flex;
         flex-direction: row;
@@ -439,6 +439,7 @@ form textarea:focus{
         border-radius: 20px;
         font-family: 'Poppins', sans-serif;
         padding: 5px;
+        font-size: 1em;
     }
 
     h1{
