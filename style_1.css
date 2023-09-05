@@ -437,9 +437,8 @@ form textarea:focus{
     
     .navigation a{
         border-radius: 20px;
-        font-size: 1.2em;
         font-family: 'Poppins', sans-serif;
-        padding: 12px;
+        padding: 5px;
     }
 
     h1{
@@ -654,7 +653,13 @@ form textarea:focus{
 }
 
 
-@media (min-width:1440px) {
+@media (min-width:1200px) {
+
+    .navigation a{
+        font-size: 1.2em;
+        padding: 12px;
+    }
+
     .first_section, .second_section{
         padding: 100px 200px;
     }
