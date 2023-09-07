@@ -424,7 +424,7 @@ form textarea:focus{
 /*  @media  */
 
 
-@media (width >= 768px) {
+@media (350px <= width >= 768px) {
     #head{
         display: flex;
         flex-direction: row;
