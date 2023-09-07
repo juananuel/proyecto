@@ -436,6 +436,12 @@ form textarea:focus{
     }
 }
 
+@media (width >= 600px) {
+    .navigation a{
+        font-size: 0.9em;
+    }
+}
+
 
 @media (width >= 768px) {
 
