@@ -96,6 +96,10 @@ p{
     padding: 50px;
 }
 
+.first_section p, .second_section p{
+    width: 100%;
+}
+
 .btn-video, .btn-musica{
     display: flex;
     justify-content: center;
@@ -309,14 +313,14 @@ form{
     height: auto;
     margin: 80px auto;
 	border-radius: 10px;  
-    padding: 50px; 
+    padding: 50px 40px; 
     background-color: rgba(176, 78, 233, 0.2);
     color: white;
 }
 
 input{
 	background-color: #fbfbfb; 
-	width: 200px; 
+	width: 215px; 
 	height: 40px; 
     border: 1px solid #ab4493;
 	border-radius: 5px;  
@@ -328,7 +332,7 @@ input{
 
 textarea{
     background-color: #fbfbfb; 
-	width: 200px; 
+	width: 215px; 
 	height: 150px; 
 	border-radius: 5px;
     border: 1px solid #ab4493;  
@@ -354,7 +358,7 @@ button{
 	background-color: #d660bb; 
     border: 0.5px solid #d660bb;
 	border-radius: 10px;	
-	width: 200px;   
+	width: 215px;   
     cursor: pointer;
 }
 
@@ -554,18 +558,18 @@ form textarea:focus{
         padding: 100px;
     }
     
-    .sec_one-div, .sec_two-div{
+    /* .sec_one-div, .sec_two-div{
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
+    } */
     
-    .sec_one-div p, .sec_two-div p{
+    /* .sec_one-div p, .sec_two-div p{
         padding: 50px 0px 50px 100px ;
-    }
+    } */
     
     .sec_one-div img, .sec_two-div img{
-        width: 300px;
+        width: 350px;
         border-radius: 50%;
     }
     
@@ -576,21 +580,21 @@ form textarea:focus{
     }
     
     .service_one h2, .service_two h2, .service_three h2{
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     
-    .service_one-div, .service_two-div, .service_three-div{
+    /* .service_one-div, .service_two-div, .service_three-div{
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
+    } */
     
     .service_one-div p, .service_three-div p{
-        padding: 50px 0px 50px 100px ;
+        padding: 50px 50px 0px;
     }
 
     .service_two-div p{
-        padding: 50px 100px 50px 0px;
+        padding: 0px 50px 50px;
     }
     
     .service_one-div img, .service_two-div img, .service_three-div img{
@@ -652,6 +656,7 @@ form textarea:focus{
     
     form{
         width: 500px; 
+        padding: 50px;
     }
     
     input{
@@ -706,16 +711,29 @@ form textarea:focus{
 
     /*  about  */
 
+    .sec_one-div, .sec_two-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     .sec_one-div p, .sec_two-div p{
         padding: 50px 50px 50px 150px ;
     }
 
     .sec_one-div img, .sec_two-div img{
-        width: 400px;
+        width: 50vh;
         border-radius: 50%;
     }
 
     /* services */
+
+
+    .service_one-div, .service_two-div, .service_three-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
     .service_one-div img, .service_two-div img, .service_three-div img{
         border-radius: 10px;
@@ -723,11 +741,11 @@ form textarea:focus{
     }
 
     .service_one-div p, .service_three-div p{
-        padding: 50px 50px 50px 150px ;
+        padding: 50px 0px 50px 100px ;
     }
 
     .service_two-div p{
-        padding: 50px 150px 50px 50px;
+        padding: 50px 100px 50px 0px;
     }
 
     /* interest */
