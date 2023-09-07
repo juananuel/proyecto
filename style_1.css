@@ -36,16 +36,18 @@ body{
 }
 
 .navigation a{
-    font-size: 0.8em;
-    border-radius: 7px;
+    font-size: 0.7em;
+    border-radius: 10px;
     color: white;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    padding: 2.5px;
+    padding: 3.5px;
+    display: inline-block;
 }
 
 .navigation a:hover{
     background-color: rgba(145, 52, 231, 0.582);
+    transform: scale(1.1);
 }
 
 h1{
@@ -115,6 +117,7 @@ p{
 
 .btn-musica a:hover, .btn-video a:hover{
     background-color: rgba(155, 48, 255, 0.493);
+    transform: scale(1.1);
 }
 
 .testimony_one, .testimony_two{
@@ -191,7 +194,7 @@ p{
 }
 
 .sec_one-div img, .sec_two-div img{
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
 }
 
@@ -231,7 +234,7 @@ p{
 
 .service_one-div img, .service_two-div img, .service_three-div img{
     border-radius: 10px;
-    width: 340px;
+    width: 250px;
 }
 
 
@@ -252,7 +255,8 @@ p{
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 30px 20px 10px rgba(0, 0, 0, 0.7);
-    width: 350px;
+    width: 250px;
+    height: 140px;
 }
 
 .section_one-interest p, .section_two-interest p{
@@ -273,7 +277,9 @@ p{
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow:30px 20px 10px rgba(0, 0, 0, 0.7);
-    width: 350px;
+    width: 250px;
+    height: 150px;
+
 }
 
 
@@ -281,7 +287,7 @@ p{
 
 
 .contact_form{
-    padding: 50px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -353,8 +359,9 @@ button{
 }
 
 button:hover{
-    background-color: #b6459c;
+    background-color: #c451a9;
     transition: 0.2s;
+    transform: scale(1.05);
 }
 
 
@@ -423,8 +430,15 @@ form textarea:focus{
 
 /*  @media  */
 
+@media (width >= 500px) {
+    .navigation a{
+        font-size: 0.8em;
+    }
+}
 
-@media (350px <= width >= 768px) {
+
+@media (width >= 768px) {
+
     #head{
         display: flex;
         flex-direction: row;
@@ -440,6 +454,11 @@ form textarea:focus{
         font-family: 'Poppins', sans-serif;
         padding: 7px;
         font-size: 1em;
+        display: inline-block;
+    }
+
+    .navigation a:hover{
+        transform: scale(1.1);
     }
 
     h1{
@@ -659,6 +678,11 @@ form textarea:focus{
     .navigation a{
         font-size: 1.2em;
         padding: 12px;
+        display: inline-block;
+    }
+
+    .navigation a:hover{
+        transform: scale(1.1);
     }
 
     .first_section, .second_section{
@@ -668,6 +692,10 @@ form textarea:focus{
     .btn-musica a, .btn-video a{
         padding: 12px 25px;
         border-radius: 25px;
+    }
+
+    .btn-musica a:hover, .btn-video a:hover{
+        transform: scale(1.1);
     }
 
     /*  about  */
@@ -706,7 +734,10 @@ form textarea:focus{
         width: 440px;
     }
 
-
+    .contact_others-iframe iframe{
+        width: 450px;
+        height: 450px;
+    }
 
 }
 
