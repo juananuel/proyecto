@@ -260,7 +260,6 @@ p{
     border: 2px solid rgba(0, 0, 0, 0.5);
     box-shadow: 30px 20px 10px rgba(0, 0, 0, 0.7);
     width: 250px;
-    height: 140px;
 }
 
 .section_one-interest p, .section_two-interest p{
@@ -268,6 +267,7 @@ p{
 }
 
 .section_two-interest{
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 50px;
 }
@@ -280,10 +280,8 @@ p{
 .sectwo_interest-img img{
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.5);
-    box-shadow:30px 20px 10px rgba(0, 0, 0, 0.7);
+    box-shadow:100px 50px 20px rgba(0, 0, 0, 0.7);
     width: 250px;
-    height: 150px;
-
 }
 
 
@@ -438,11 +436,19 @@ form textarea:focus{
     .navigation a{
         font-size: 0.8em;
     }
+
+    .sectwo_interest-img img{
+        width: 300px;
+    }
 }
 
 @media (width >= 600px) {
     .navigation a{
         font-size: 0.9em;
+    }
+
+    .sectwo_interest-img img{
+        width: 350px;
     }
 }
 
@@ -613,7 +619,7 @@ form textarea:focus{
     }
     
     .secone_interest-img img{
-        width: 400px;
+        width: 350px;
     }
     
     .section_one-interest p{
@@ -755,8 +761,12 @@ form textarea:focus{
     }
 
     .sectwo_interest-img img{
-        width: 440px;
+        width: 450px;
     }
+
+
+    /* contact */
+
 
     .contact_others-iframe iframe{
         width: 450px;
