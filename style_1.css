@@ -258,7 +258,7 @@ p{
 .secone_interest-img img{
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 30px 20px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 30px 20px 30px rgba(0, 0, 0, 0.7);
     width: 250px;
 }
 
@@ -267,9 +267,13 @@ p{
 }
 
 .section_two-interest{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) ,url(./img/starfull_sky1.png);
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 50px;
+    padding: 150px 50px;
 }
 
 .sectwo_interest-img{
@@ -279,8 +283,8 @@ p{
 
 .sectwo_interest-img img{
     border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    box-shadow:100px 50px 20px rgba(0, 0, 0, 0.7);
+    border: 2px solid #9e43df;
+    box-shadow:0px 0px 80px rgba(158,67,223,1);
     width: 250px;
 }
 
