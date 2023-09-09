@@ -271,9 +271,10 @@ p{
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) ,url(./img/starfull_sky1.png);
-    background-size: cover;
+    ) ,url(./img/starfull_sky2.png);
+    background-repeat: no-repeat;
     padding: 150px 50px;
+    width: 100vw;
 }
 
 .sectwo_interest-img{
@@ -436,6 +437,7 @@ form textarea:focus{
 
 /*  @media  */
 
+
 @media (width >= 500px) {
     .navigation a{
         font-size: 0.8em;
@@ -562,28 +564,22 @@ form textarea:focus{
         padding: 130px 100px;
     }
 
+
     /*  about  */
+
 
     .first_section-about, .second_section-about{
         padding: 100px;
     }
-    
-    /* .sec_one-div, .sec_two-div{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } */
-    
-    /* .sec_one-div p, .sec_two-div p{
-        padding: 50px 0px 50px 100px ;
-    } */
     
     .sec_one-div img, .sec_two-div img{
         width: 350px;
         border-radius: 50%;
     }
     
+
     /* services */
+
 
     .service_one, .service_two, .service_three{
         padding: 100px;
@@ -592,12 +588,6 @@ form textarea:focus{
     .service_one h2, .service_two h2, .service_three h2{
         padding-bottom: 50px;
     }
-    
-    /* .service_one-div, .service_two-div, .service_three-div{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } */
     
     .service_one-div p, .service_three-div p{
         padding: 50px 50px 0px;
@@ -611,8 +601,10 @@ form textarea:focus{
         border-radius: 10px;
         width: 350px;
     }
+
     
     /* interest */
+
 
     .section_one-interest{
         padding: 100px 0px;
@@ -636,6 +628,7 @@ form textarea:focus{
     
     .section_two-interest{
         padding: 100px 0px;
+        background-size: 100% 100%;
     }
     
     .section_two-interest p{
@@ -719,7 +712,9 @@ form textarea:focus{
         transform: scale(1.1);
     }
 
+
     /*  about  */
+
 
     .sec_one-div, .sec_two-div{
         display: flex;
@@ -736,6 +731,7 @@ form textarea:focus{
         border-radius: 50%;
     }
 
+    
     /* services */
 
 
