@@ -48,6 +48,7 @@ body{
 .navigation a:hover{
     background-color: rgba(145, 52, 231, 0.582);
     transform: scale(1.1);
+    transition: .2s;
 }
 
 h1{
