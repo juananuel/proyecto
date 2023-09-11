@@ -421,6 +421,11 @@ form textarea:focus{
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.contact_others-iframe iframe{
+    border-radius: 10px;
 }
 
 .contact_others-p{
